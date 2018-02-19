@@ -12,9 +12,11 @@ h1 {
 }
 
 div.row > div {
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 10px; 
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	padding-bottom: 20px; 
 }
 
 
@@ -60,7 +62,10 @@ p.content {
 
 .row {
 	width: 100%;
+	/*
 	padding-left: 5px;
+	padding-right: 5px;
+	*/
 }
 
 /* DESKTOP */
