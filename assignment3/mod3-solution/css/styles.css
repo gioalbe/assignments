@@ -4,3 +4,29 @@
 	padding: 0;
 	font-family: 'Cagliostro', sans-serif;
 }
+
+/* 	!!! original padding
+.navbar-brand {
+	padding-top: 25px;
+}
+*/
+
+/* redefine header bar color */
+.navbar-default {
+	background-color: #FFFF99;
+}
+
+.navbar-brand h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+/*
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+*/
