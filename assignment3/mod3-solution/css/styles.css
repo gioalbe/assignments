@@ -22,6 +22,11 @@ but it should be the standard...
 	background-color: #36F;
 }
 
+.navbar-header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .navbar-brand h1 {
 	color: #F90;
 	font-size: 2em;
@@ -36,4 +41,64 @@ but it should be the standard...
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration-color: #F90;
 	/*text-decoration: none;*/
+}
+
+/*	button (border)					button (hamburger lines)	*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #F90;
+}
+
+/*!!! not sure if necessary */
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -45px;
+}
+
+/* collapsable menu items */
+#nav-list {
+	margin-top: 10px;
+	background-color: #306;
+}
+
+#nav-list a {
+	color: #F90;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #FFFFFF;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+/*!!! h2 text looks like it needs font fix*/
+
+/*!!! check 
+	BS xs media query: needed??; 
+	these settings are meant for xxs view
+*/
+@media (max-width: 767px) {
+
+/*
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+	}
+*/
+
+
 }
