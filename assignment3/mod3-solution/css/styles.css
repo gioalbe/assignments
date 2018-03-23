@@ -11,22 +11,29 @@
 }
 */
 
+/* 
+The margin on the left depends from
+	div.container 
+but it should be the standard...
+*/
+
 /* redefine header bar color */
 .navbar-default {
-	background-color: #FFFF99;
+	background-color: #36F;
 }
 
 .navbar-brand h1 {
+	color: #F90;
 	font-size: 2em;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
+	text-shadow: 1px 1px 1px #FFFFFF;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
 }
 
-/*
+
 .navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
+	text-decoration-color: #F90;
+	/*text-decoration: none;*/
 }
-*/
