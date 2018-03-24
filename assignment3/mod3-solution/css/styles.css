@@ -75,11 +75,21 @@ but it should be the standard...
 
 /*!!! h2 text looks like it needs font fix*/
 
+#my-main-content .row div {
+	background-color: #F90;
+	height: 1000px;
+}
+
 /*!!! check 
 	BS xs media query: needed??; 
 	these settings are meant for xxs view
 */
 @media (max-width: 767px) {
+
+	#my-main-content .row div {
+		margin-left: 20px;
+		margin-right: 20px; /*!!! this doesn't work*/
+	}
 
 /*
 	.navbar-brand {
