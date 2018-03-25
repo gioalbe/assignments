@@ -5,18 +5,6 @@
 	font-family: 'Cagliostro', sans-serif;
 }
 
-/* 	!!! original padding
-.navbar-brand {
-	padding-top: 25px;
-}
-*/
-
-/* 
-The margin on the left depends from
-	div.container 
-but it should be the standard...
-*/
-
 /* redefine header bar color */
 .navbar-default {
 	background-color: #36F;
@@ -40,7 +28,6 @@ but it should be the standard...
 
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration-color: #F90;
-	/*text-decoration: none;*/
 }
 
 /*	button (border)					button (hamburger lines)	*/
@@ -48,7 +35,7 @@ but it should be the standard...
 	border: 2px solid #F90;
 }
 
-/*!!! not sure if necessary */
+
 .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: -45px;
@@ -73,42 +60,19 @@ but it should be the standard...
 	font-size: 1.8em;
 }
 
-/*!!! h2 text looks like it needs font fix*/
 
 #my-main-content .row div {
 	background-color: #F90;
 	height: 1000px;
 }
 
-/*!!! check 
-	BS xs media query: needed??; 
-	these settings are meant for xxs view
-*/
+
 @media (max-width: 767px) {
 
 	#my-main-content .row div {
 		margin-left: 20px;
-		margin-right: 20px; /*!!! this doesn't work*/
+		margin-right: 20px;
 	}
-
-/*
-	.navbar-brand {
-		padding-top: 10px;
-		height: 80px;
-	}
-	.navbar-brand h1 {
-		padding-top: 10px;
-		font-size: 5vw;
-	}
-
-	#collapsable-nav a {
-		font-size: 1.2em;
-	}
-
-	#collapsable-nav a span {
-		font-size: 1em;
-	}
-*/
 
 
 }
