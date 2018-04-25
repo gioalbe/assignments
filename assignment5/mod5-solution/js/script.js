@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // *** start ***
 // On first load, show home view
 showLoading("#main-content");
-console.log("!!! first ajax request");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
   buildAndShowHomeHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
@@ -92,7 +91,6 @@ $ajaxUtils.sendGetRequest(
 // Builds HTML for the home page based on categories array
 // returned from the server.
 function buildAndShowHomeHTML (categories) {
-  console.log("!!! second ajax request");
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
@@ -114,9 +112,9 @@ function buildAndShowHomeHTML (categories) {
       // $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
-      
+      console.log("!!! calling insertProperty");
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml,
-                                                        "'randomCategoryShortName'", //!!! check
+                                                        "{randomCategoryShortName}", //!!! check
                                                         chosenCategoryShortName.short_name);
 
 
